@@ -1,38 +1,58 @@
-.App {
+body, table, td, tr {
+  font-family: Roboto, sans-serif;
+}
+
+p {
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+table.songs-table {
+  width: 80%;
+  border: 1px solid gray;
+  border-collapse: collapse;
+  margin: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+th.songs-table-header {
+  border: 1px solid grey;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+th.author, td.author {
+  width: 20%;
 }
 
-.App-link {
-  color: #61dafb;
+th.title, td.title {
+  width: 80%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+td.songs-table-cell {
+  border: 1px solid grey;
+  padding-left: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+h2 {
+  text-align: center;
+}
+
+#canvas {
+  width: 800px;
+  height: 100px;
+  display: none;
+}
+
+#marker {
+  position: absolute;
+  color: red;
+  top: 100px;
 }
