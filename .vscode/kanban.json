@@ -1,0 +1,53 @@
+{
+    "title": "Kanban",
+    "cols": [
+        {
+            "title": "Bugs",
+            "tasks": [],
+            "id": "clmxud679000a4666wx4aqe8x",
+            "color": "#eb144c"
+        },
+        {
+            "title": "To-Do",
+            "tasks": [],
+            "id": "clmxud679000c4666ncmtz256",
+            "color": "#fcb900"
+        },
+        {
+            "title": "Doing",
+            "tasks": [],
+            "id": "clmxud679000d4666knnxuh6c",
+            "color": "#0693e3"
+        },
+        {
+            "title": "Done",
+            "tasks": [
+                {
+                    "text": "Show chords in the canvas version",
+                    "id": "clmxueh9h000i4666bzsr6hyv"
+                },
+                {
+                    "text": "Show a song using canvas",
+                    "id": "clmxue9d3000h4666kxfxvn4r"
+                },
+                {
+                    "text": "Show songs list",
+                    "id": "clmxue48i000g4666qh9cgk94"
+                },
+                {
+                    "text": "Add fake data in json",
+                    "id": "clmxudssj000f4666g6r9wfzy"
+                },
+                {
+                    "text": "Create React app",
+                    "id": "clmxud679000b4666a5hj0d00"
+                }
+            ],
+            "id": "clmxud679000e4666mmpzyc6z",
+            "color": "#00d084"
+        }
+    ],
+    "autosave": true,
+    "saveToFile": true,
+    "timestamp": 1695583147599
+}
