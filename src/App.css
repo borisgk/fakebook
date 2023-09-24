@@ -58,3 +58,41 @@ div.songcanvas {
   margin: auto;
   margin-bottom: 3rem;
 }
+
+/* Lyrics HTML view */
+
+div.lyrics-container {
+  width: 80%;
+  margin: auto;
+  border: 1px solid grey;
+  border-radius: 1rem;
+  padding-left: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  box-shadow: 10px 10px 10px gray;
+}
+
+div.lyrics-line {
+  margin-top: 0.75rem;
+  font-family: Roboto;
+  font-size: 1rem;
+}
+
+div.chords-line {
+  position: relative;
+  height: 1rem;
+  width: 100%;
+  top: -2.5rem;
+}
+
+div.chord {
+  position: absolute;
+  top: 0rem;
+  color: red;
+  border: 1px solid lightgrey;
+  border-radius: 0.2rem;
+  padding-left: 3px;
+  padding-right: 3px;
+  box-sizing: border-box;
+  cursor: pointer;
+}

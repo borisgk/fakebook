@@ -9,7 +9,12 @@
         },
         {
             "title": "To-Do",
-            "tasks": [],
+            "tasks": [
+                {
+                    "text": "Implement chords editor.",
+                    "id": "clmy2gbjp000q466670lcrkka"
+                }
+            ],
             "id": "clmxud679000c4666ncmtz256",
             "color": "#fcb900"
         },
@@ -22,6 +27,26 @@
         {
             "title": "Done",
             "tasks": [
+                {
+                    "text": "Make HTML version a primary one.",
+                    "id": "clmxzjqj1000p4666cqvzeemf"
+                },
+                {
+                    "text": "No chords: HTML view crashes. -- Fixed: added a condition to check if chords exist.",
+                    "id": "clmxz336p000n46661yhlyko4"
+                },
+                {
+                    "text": "Use line of chords and chord component. Position chord component dynamically using lyrics.",
+                    "id": "clmxz1way000m4666t3v15ewn"
+                },
+                {
+                    "text": "Create an HTML view of a song.",
+                    "id": "clmxuu88d000k4666w9huo04s"
+                },
+                {
+                    "text": "Add a link to the list table to open HTML view.",
+                    "id": "clmxutsc7000j4666lmeenbzx"
+                },
                 {
                     "text": "Show chords in the canvas version",
                     "id": "clmxueh9h000i4666bzsr6hyv"
@@ -49,5 +74,5 @@
     ],
     "autosave": true,
     "saveToFile": true,
-    "timestamp": 1695583147599
+    "timestamp": 1695596644047
 }
