@@ -45,14 +45,16 @@ h2 {
   text-align: center;
 }
 
-#canvas {
-  width: 800px;
-  height: 100px;
-  display: none;
+#songcanvas {
+  margin: auto;
+  margin-top: 3rem;
+  border: 1px solid lightgrey;
+  border-radius: 1rem;
+  box-shadow: 10px 10px 10px gray;
 }
 
-#marker {
-  position: absolute;
-  color: red;
-  top: 100px;
+div.songcanvas {
+  width: 100vb;
+  margin: auto;
+  margin-bottom: 3rem;
 }
